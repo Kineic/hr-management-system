@@ -1,10 +1,11 @@
 package com.amazingsoftwarecompany.employee;
 
-import java.io.Serializable;
-
-public class Developer extends Employee implements Serializable{
-
-	private static final long serialVersionUID = 2L;
+public class Developer extends Employee{
+	
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 	
 	int level;
 	double hourlyRate;

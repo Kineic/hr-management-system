@@ -1,6 +1,13 @@
 package com.amazingsoftwarecompany.name;
 
-public class Name {
+import java.io.Serializable;
+
+public class Name implements Serializable {
+
+		/**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 
 		String title;
 		String fName;

@@ -1,9 +1,17 @@
 package com.amazingsoftwarecompany.employee;
 
+import java.io.Serializable;
+
 import com.amazingsoftwarecompany.name.*;
 
 
-public class Employee{
+
+public abstract class Employee implements Serializable{
+	
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 
 	int uniqueID;
 	Name name; //Should reference the Name Class
